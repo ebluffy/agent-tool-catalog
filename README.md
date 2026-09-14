@@ -23,12 +23,23 @@ Last updated: 2026-09-14
 |------|------|-----|
 | 2026-09-14 | https://github.com/github/spec-kit | Spec → Plan → Tasks → Implement. |
 | 2026-09-14 | https://github.com/rtk-ai/rtk | Compresses shell output for agents → token savings. |
+| 2026-09-14 | https://github.com/headroomlabs-ai/headroom | Compress logs/files/RAG before the model (lib / proxy / MCP). Pairs with rtk; big token wins. |
 | 2026-09-14 | https://github.com/mattpocock/skills | Engineering skills: bugs, reviews, requirements. Cursor: `npx skills@latest add mattpocock/skills`. |
+| 2026-09-14 | https://github.com/addyosmani/agent-skills | Formal coding-agent skills: specs → release (Addy Osmani). |
 | 2026-09-14 | https://github.com/tirth8205/code-review-graph | Local code graph (Tree-sitter) + MCP — fewer full-repo rereads on review. |
+| 2026-09-14 | https://github.com/DeusData/codebase-memory-mcp | Codebase → knowledge graph MCP; 100+ languages; local. Sibling idea to code-review-graph. |
 | 2026-09-14 | https://github.com/stablyai/orca | Run several CLI agents in parallel (worktrees + phone progress). |
 | 2026-09-14 | https://github.com/openai/codex | OpenAI terminal coding agent; local edits, commands, IDE/cloud. |
 | 2026-09-14 | https://github.com/badlogic/pi-mono | Light agent harness (models, loops, terminal, coding CLI). |
+| 2026-09-14 | https://github.com/withastro/flue | TypeScript agent framework (Astro team): sessions, tools, skills, sandbox isolation. |
 | 2026-09-14 | https://github.com/Shubhamsaboo/awesome-llm-apps | 100+ runnable agents/RAG/voice apps — cookbook, not a dependency. |
+| 2026-09-14 | https://github.com/kenn-io/agentsview | Local viewer for Claude Code / Codex session logs + token spend. |
+
+## Research / reach (read each site ToS)
+
+| Date | Repo | Why |
+|------|------|-----|
+| 2026-09-14 | https://github.com/Panniantong/Agent-Reach | Horizontal search: X, Reddit, YouTube, GitHub — one install; respect each site’s terms. |
 
 ## AI companion / local LLM
 
@@ -36,11 +47,13 @@ Last updated: 2026-09-14
 |------|------|-----|
 | 2026-09-14 | https://github.com/Open-LLM-VTuber/Open-LLM-VTuber | Offline VTuber companion: ASR→LLM→TTS, Live2D, desktop pet, memory. Architecture reference. |
 | 2026-09-14 | https://github.com/p-e-w/heretic | Abliteration for local LLMs. Only with your own model and accepted risk. |
+| 2026-09-14 | https://github.com/LMCache/LMCache | KV-cache reuse for inference — faster/cheaper when context repeats (vLLM-style stacks). |
 
-## Office / documents
+## OCR / documents
 
 | Date | Repo | Why |
 |------|------|-----|
+| 2026-09-14 | https://github.com/PaddlePaddle/PaddleOCR | PDF/images → structured text (100+ languages) before feeding a big model. |
 | 2026-09-14 | https://github.com/iOfficeAI/OfficeCLI | Agents read/write Word, Excel, PPT without installing Office. `officecli install`. |
 
 ## Browser / automation
@@ -69,6 +82,7 @@ Stack idea: Windows-MCP (desktop) + project-specific CDP MCP if needed + browser
 
 | Date | Repo | Why |
 |------|------|-----|
+| 2026-09-14 | https://github.com/NVIDIA/SkillSpector | Scan agent skills before install (injections, malware patterns, risk). |
 | 2026-09-14 | https://github.com/KeygraphHQ/shannon | AI web/API pentester. Only against **your own** staging. |
 
 ## Lower priority (kept for awareness)
@@ -77,19 +91,22 @@ Stack idea: Windows-MCP (desktop) + project-specific CDP MCP if needed + browser
 |------|-------------|
 | https://github.com/HKUDS/Vibe-Trading | Trading / backtest — niche. Verify before real money. |
 | https://github.com/HKUDS/DeepTutor | Custom tutor / Q&A over materials — personal learning, not core product. |
+| https://github.com/calesthio/OpenMontage | Coding-agent → video pipelines — only if you do video production. |
 
 ---
 
 ## Suggested defaults
 
 1. UI → ui-ux-pro-max + hallmark  
-2. Review / tokens → code-review-graph (+ rtk)  
-3. Engineering process → mattpocock/skills + spec-kit  
-4. Companion / RAG recipes → Open-LLM-VTuber + awesome-llm-apps  
-5. Office → OfficeCLI when needed  
-6. Agent fleets → Orca / Codex / pi later  
-7. Unity → UnityMCP when in Editor  
-8. Pre-prod web → shannon on your own stand  
+2. Tokens → headroom (+ rtk); review graphs → code-review-graph / codebase-memory-mcp  
+3. Engineering skills → mattpocock/skills + addyosmani/agent-skills + spec-kit; scan new skills with SkillSpector  
+4. Companion / RAG recipes → Open-LLM-VTuber + awesome-llm-apps; local infra → LMCache when self-hosting  
+5. Docs → PaddleOCR + OfficeCLI when needed  
+6. Research → Agent-Reach (ToS-aware)  
+7. Agent fleets / harness → Orca / Codex / pi / flue later  
+8. Session observability → agentsview  
+9. Unity → UnityMCP when in Editor  
+10. Pre-prod web → shannon on your own stand  
 
 ---
 
