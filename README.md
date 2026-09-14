@@ -10,7 +10,7 @@ Public, personal-project-free list of useful repos for coding agents **and** sol
 
 **Humans:** one row = date | URL | one-line why. No secrets, no private project names.
 
-Last updated: 2026-09-14
+Last updated: 2026-09-14 (memanto)
 
 ---
 
@@ -40,6 +40,7 @@ Cross-project agent tooling (skills, specs, token compression, code graphs, harn
 | 2026-09-14 | https://github.com/withastro/flue | TypeScript agent framework (Astro): sessions, tools, skills, sandbox. |
 | 2026-09-14 | https://github.com/Shubhamsaboo/awesome-llm-apps | 100+ runnable agents/RAG/voice — cookbook, not a dependency. |
 | 2026-09-14 | https://github.com/kenn-io/agentsview | Local viewer for Claude Code / Codex sessions + token spend. |
+| 2026-09-14 | https://github.com/moorcheh-ai/memanto | Memory Agent for other agents: keep/conflict/expire/share. Companion memory layer, not a vector DB alone. |
 
 ## Research / reach (read each site ToS)
 
