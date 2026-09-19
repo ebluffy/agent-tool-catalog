@@ -6,11 +6,11 @@ Public, personal-project-free list of useful repos for coding agents **and** sol
 
 **Section guide**
 - **Process / agents** — cross-project skills, harnesses, MCP, CLI agents (like “plugins” for any codebase).
-- **Other sections** — domain tools (UI, OCR, Windows MCP, security, self-host apps).
+- **Other sections** — domain tools (UI, OCR, Computer Use, security, self-host apps).
 
 **Humans:** one row = date | URL | one-line why. No secrets, no private project names.
 
-Last updated: 2026-09-14 (memanto)
+Last updated: 2026-09-19 (jev-cu)
 
 ---
 
@@ -88,7 +88,15 @@ Cross-project agent tooling (skills, specs, token compression, code graphs, harn
 |------|------|-----|
 | 2026-09-14 | https://github.com/jo-inc/camofox-browser | Stealth browser (Camoufox) for Cloudflare/anti-bot. |
 
-## Windows Computer Use (MCP)
+## Computer Use
+
+Windows desktop MCP plus Codex CUA decision-layer skills. Jev-cu is not a Windows MCP server.
+
+| Date | Repo | Why |
+|------|------|-----|
+| 2026-09-19 | https://github.com/Sac-Y/Jev-cu | Codex Computer Use skill: Jev picks next click from AX text (no screenshots); dry-run + policy gates. Not Windows-MCP. |
+
+### Windows MCP
 
 | Date | Repo | Verdict |
 |------|------|---------|
