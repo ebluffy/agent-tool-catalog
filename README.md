@@ -10,7 +10,7 @@ Public, personal-project-free list of useful repos for coding agents **and** sol
 
 **Humans:** one row = date | URL | one-line why. No secrets, no private project names.
 
-Last updated: 2026-09-19 (jev-cu)
+Last updated: 2026-10-07 (anti-slop)
 
 ---
 
@@ -20,6 +20,7 @@ Last updated: 2026-09-19 (jev-cu)
 |------|------|-----|
 | 2026-09-14 | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill | Cursor/Claude skill: palettes, styles, UX anti-patterns. `uipro init --ai cursor`. |
 | 2026-09-14 | https://github.com/Nutlope/hallmark | Anti-AI-slop web design skill (57 gates). Less template taste. `npx skills add nutlope/hallmark`. |
+| 2026-10-07 | https://github.com/miqdadbadjuber/anti-slop | Filter (not a style guide): blocks generic UI, filler copy, and AI-shaped code; pairs with your `DESIGN.md`. `npx antislop-ai` or `npx skills add miqdadbadjuber/anti-slop`. |
 
 ## Process / agents
 
@@ -133,7 +134,7 @@ Stack idea: Windows-MCP (desktop) + project CDP MCP if needed + browser MCP/camo
 
 ## Suggested defaults
 
-1. UI → ui-ux-pro-max + hallmark  
+1. UI → ui-ux-pro-max + hallmark + anti-slop  
 2. Tokens → headroom (+ rtk); graphs → code-review-graph / codebase-memory-mcp  
 3. Skills → mattpocock + addyosmani + spec-kit; scan with SkillSpector  
 4. Search → SearXNG; research reach → Agent-Reach (ToS-aware)  
