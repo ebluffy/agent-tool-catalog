@@ -5,12 +5,12 @@ Public, personal-project-free list of useful repos for coding agents **and** sol
 **Agents:** fetch this README when choosing skills, MCP, UI tooling, or agent workflows. Prefer links here over inventing tooling from memory.
 
 **Section guide**
-- **Process / agents** — cross-project skills, harnesses, MCP, CLI agents (like “plugins” for any codebase).
-- **Other sections** — domain tools (UI, OCR, Computer Use, security, self-host apps).
+- **Process / agents** - cross-project skills, harnesses, MCP, CLI agents (like “plugins” for any codebase).
+- **Other sections** - domain tools (UI, OCR, Computer Use, security, self-host apps).
 
 **Humans:** one row = date | URL | one-line why. No secrets, no private project names.
 
-Last updated: 2026-10-08 (ui-skills batch)
+Last updated: 2026-10-08 (official skills + agent-browser)
 
 ---
 
@@ -24,7 +24,7 @@ Last updated: 2026-10-08 (ui-skills batch)
 | 2026-10-08 | https://github.com/emilkowalski/skills | Design-eng craft + animation decision framework (emil-design-eng). `npx skills add emilkowalski/skills`. |
 | 2026-10-08 | https://github.com/jakubkrehel/make-interfaces-feel-better | Micro-polish checklist: radii, hit areas, tabular nums, icon weight. `npx skills add jakubkrehel/make-interfaces-feel-better`. |
 | 2026-10-08 | https://github.com/ibelick/ui-skills | A11y + baseline UI pack (fixing-accessibility and more). `npx skills add ibelick/ui-skills`. |
-| 2026-10-08 | https://github.com/shadcn-ui/ui | Official shadcn skill — only when the project uses shadcn/ui. Skill under `skills/shadcn`. |
+| 2026-10-08 | https://github.com/shadcn-ui/ui | Official shadcn skill - only when the project uses shadcn/ui. Skill under `skills/shadcn`. |
 
 ## Process / agents
 
@@ -37,22 +37,27 @@ Cross-project agent tooling (skills, specs, token compression, code graphs, harn
 | 2026-09-14 | https://github.com/headroomlabs-ai/headroom | Compress logs/files/RAG before the model (lib / proxy / MCP). Pairs with rtk. |
 | 2026-09-14 | https://github.com/mattpocock/skills | Engineering skills: bugs, reviews, requirements. `npx skills@latest add mattpocock/skills`. |
 | 2026-09-14 | https://github.com/addyosmani/agent-skills | Formal coding-agent skills: specs → release (Addy Osmani). |
-| 2026-09-14 | https://github.com/tirth8205/code-review-graph | Local code graph (Tree-sitter) + MCP — fewer full-repo rereads. |
+| 2026-09-14 | https://github.com/tirth8205/code-review-graph | Local code graph (Tree-sitter) + MCP - fewer full-repo rereads. |
 | 2026-09-14 | https://github.com/DeusData/codebase-memory-mcp | Codebase → knowledge graph MCP; 100+ languages; local. |
 | 2026-09-14 | https://github.com/stablyai/orca | Several CLI agents in parallel (worktrees + phone progress). |
 | 2026-09-14 | https://github.com/openai/codex | OpenAI terminal coding agent. |
 | 2026-09-14 | https://github.com/badlogic/pi-mono | Light agent harness (models, loops, terminal, coding CLI). |
 | 2026-09-14 | https://github.com/withastro/flue | TypeScript agent framework (Astro): sessions, tools, skills, sandbox. |
-| 2026-09-14 | https://github.com/Shubhamsaboo/awesome-llm-apps | 100+ runnable agents/RAG/voice — cookbook, not a dependency. |
+| 2026-09-14 | https://github.com/Shubhamsaboo/awesome-llm-apps | 100+ runnable agents/RAG/voice - cookbook, not a dependency. |
 | 2026-09-14 | https://github.com/kenn-io/agentsview | Local viewer for Claude Code / Codex sessions + token spend. |
 | 2026-09-14 | https://github.com/moorcheh-ai/memanto | Memory Agent for other agents: keep/conflict/expire/share. Companion memory layer, not a vector DB alone. |
 | 2026-10-08 | https://github.com/millionco/react-doctor | React health scanner (security/perf/architecture score). `npx react-doctor@latest`. |
+| 2026-10-08 | https://github.com/anthropics/skills | Official Anthropic Agent Skills pack (API, MCP, agents). |
+| 2026-10-08 | https://github.com/vercel-labs/agent-skills | Vercel official skills (React best practices and more). `npx skills add vercel-labs/agent-skills`. |
+| 2026-10-08 | https://github.com/VoltAgent/awesome-agent-skills | Curated index of 1000+ official/community skills - discovery, not a dependency. |
+| 2026-10-08 | https://github.com/google-labs-code/stitch-skills | Google Stitch MCP skills (design/code loop). |
+| 2026-10-08 | https://github.com/conorbronsdon/agent-skills | Session memory, multi-session reconcile, proportionate PR review. |
 
 ## Research / reach (read each site ToS)
 
 | Date | Repo | Why |
 |------|------|-----|
-| 2026-09-14 | https://github.com/Panniantong/Agent-Reach | Horizontal search: X, Reddit, YouTube, GitHub — one install; respect ToS. |
+| 2026-09-14 | https://github.com/Panniantong/Agent-Reach | Horizontal search: X, Reddit, YouTube, GitHub - one install; respect ToS. |
 | 2026-09-14 | https://github.com/searxng/searxng | Self-hosted metasearch (Google/Bing/…). No search history on your box. |
 
 ## Download / archive (respect platform ToS & copyright)
@@ -61,14 +66,14 @@ Cross-project agent tooling (skills, specs, token compression, code graphs, harn
 |------|------|-----|
 | 2026-09-14 | https://github.com/imputnet/cobalt | Paste TikTok/IG/X/YouTube/Reddit links → files; no watermark walls. |
 | 2026-09-14 | https://github.com/mikf/gallery-dl | Galleries/accounts/archives via CLI; keeps metadata. |
-| 2026-09-14 | https://github.com/ArchiveBox/ArchiveBox | Save links as full pages, PDF, screenshots — survives 404s. |
+| 2026-09-14 | https://github.com/ArchiveBox/ArchiveBox | Save links as full pages, PDF, screenshots - survives 404s. |
 
 ## Self-host / personal utilities
 
 | Date | Repo | Why |
 |------|------|-----|
 | 2026-09-14 | https://github.com/dgtlmoon/changedetection.io | Notify when a page changes (price, jobs, competitor site). |
-| 2026-09-14 | https://github.com/LibreTranslate/LibreTranslate | Local translation — no Google, no per-word cloud bill. |
+| 2026-09-14 | https://github.com/LibreTranslate/LibreTranslate | Local translation - no Google, no per-word cloud bill. |
 | 2026-09-14 | https://github.com/reactive-resume/reactive-resume | Self-hosted resume builder; download without paywall. |
 | 2026-09-14 | https://github.com/localsend/localsend | LAN file transfer across Win/Mac/Linux/Android/iOS; no size cap. |
 | 2026-09-14 | https://github.com/dani-garcia/vaultwarden | Self-hosted Bitwarden-compatible server (attachments, HW keys). |
@@ -79,7 +84,7 @@ Cross-project agent tooling (skills, specs, token compression, code graphs, harn
 |------|------|-----|
 | 2026-09-14 | https://github.com/Open-LLM-VTuber/Open-LLM-VTuber | Offline VTuber companion: ASR→LLM→TTS, Live2D, memory. Architecture reference. |
 | 2026-09-14 | https://github.com/p-e-w/heretic | Abliteration for local LLMs. Own model + accepted risk only. |
-| 2026-09-14 | https://github.com/LMCache/LMCache | KV-cache reuse for inference — faster/cheaper when context repeats. |
+| 2026-09-14 | https://github.com/LMCache/LMCache | KV-cache reuse for inference - faster/cheaper when context repeats. |
 
 ## OCR / documents
 
@@ -131,10 +136,10 @@ Stack idea: Windows-MCP (desktop) + project CDP MCP if needed + browser MCP/camo
 
 | Repo | Why not top |
 |------|-------------|
-| https://github.com/HKUDS/Vibe-Trading | Trading / backtest — niche. Verify before real money. |
-| https://github.com/HKUDS/DeepTutor | Tutor over materials — personal learning. |
-| https://github.com/calesthio/OpenMontage | Coding-agent → video pipelines — only if you do video. |
-| https://github.com/Suwayomi/Suwayomi-Server | Self-hosted manga reader — entertainment; only content you have rights to. |
+| https://github.com/HKUDS/Vibe-Trading | Trading / backtest - niche. Verify before real money. |
+| https://github.com/HKUDS/DeepTutor | Tutor over materials - personal learning. |
+| https://github.com/calesthio/OpenMontage | Coding-agent → video pipelines - only if you do video. |
+| https://github.com/Suwayomi/Suwayomi-Server | Self-hosted manga reader - entertainment; only content you have rights to. |
 
 ---
 
@@ -142,13 +147,13 @@ Stack idea: Windows-MCP (desktop) + project CDP MCP if needed + browser MCP/camo
 
 1. UI → anti-slop + hallmark + emil-design-eng (+ make-interfaces / ibelick a11y; shadcn only if project uses it)  
 2. Tokens → headroom (+ rtk); graphs → code-review-graph / codebase-memory-mcp  
-3. Skills → mattpocock + addyosmani + spec-kit; scan with SkillSpector  
+3. Skills → anthropics/skills + vercel-labs/agent-skills + mattpocock + addyosmani + spec-kit; discover via awesome-agent-skills; scan with SkillSpector  
 4. Search → SearXNG; research reach → Agent-Reach (ToS-aware)  
 5. Archive/download → ArchiveBox / cobalt / gallery-dl (legal use only)  
 6. Self-host basics → Vaultwarden, LocalSend, changedetection, LibreTranslate  
 7. Companion / RAG → Open-LLM-VTuber + awesome-llm-apps; infra → LMCache  
 8. Docs → PaddleOCR + OfficeCLI  
-8b. Browser agents → playwright-cli (+ camofox if anti-bot); React health → react-doctor  
+8b. Browser agents → agent-browser / playwright-cli (+ camofox if anti-bot); React health → react-doctor; design/code → stitch-skills  
 9. Fleets → Orca / Codex / pi / flue later  
 10. Security (own stand) → shannon / pentagi  
 
@@ -160,6 +165,6 @@ When evaluating candidate skills from dumps/lists: add useful ones to this READM
 
 ## How to add an entry
 
-> Add to https://github.com/ebluffy/agent-tool-catalog — `<url>` — `<one-line why>`
+> Add to https://github.com/ebluffy/agent-tool-catalog - `<url>` - `<one-line why>`
 
 Keep rows short. No secrets, no private paths, no personal project names.
