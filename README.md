@@ -145,7 +145,7 @@ Stack idea: Windows-MCP (desktop) + project CDP MCP if needed + browser MCP/camo
 
 ## Suggested defaults
 
-1. UI → anti-slop + hallmark + emil-design-eng (+ make-interfaces / ibelick a11y; shadcn only if project uses it)  
+1. UI → **full stack, not antislop alone**: anti-slop (filter) + hallmark + emil-design-eng + make-interfaces-feel-better + ibelick/ui-skills + ui-ux-pro-max (shadcn only if project uses it). See `skills/README.md` for install commands.  
 2. Tokens → headroom (+ rtk); graphs → code-review-graph / codebase-memory-mcp  
 3. Skills → anthropics/skills + vercel-labs/agent-skills + mattpocock + addyosmani + spec-kit; discover via awesome-agent-skills; scan with SkillSpector  
 4. Search → SearXNG; research reach → Agent-Reach (ToS-aware)  
