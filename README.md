@@ -10,7 +10,7 @@ Public, personal-project-free list of useful repos for coding agents **and** sol
 
 **Humans:** one row = date | URL | one-line why. No secrets, no private project names.
 
-Last updated: 2026-10-07 (anti-slop)
+Last updated: 2026-10-08 (ui-skills batch)
 
 ---
 
@@ -21,6 +21,10 @@ Last updated: 2026-10-07 (anti-slop)
 | 2026-09-14 | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill | Cursor/Claude skill: palettes, styles, UX anti-patterns. `uipro init --ai cursor`. |
 | 2026-09-14 | https://github.com/Nutlope/hallmark | Anti-AI-slop web design skill (57 gates). Less template taste. `npx skills add nutlope/hallmark`. |
 | 2026-10-07 | https://github.com/miqdadbadjuber/anti-slop | Filter (not a style guide): blocks generic UI, filler copy, and AI-shaped code; pairs with your `DESIGN.md`. `npx antislop-ai` or `npx skills add miqdadbadjuber/anti-slop`. |
+| 2026-10-08 | https://github.com/emilkowalski/skills | Design-eng craft + animation decision framework (emil-design-eng). `npx skills add emilkowalski/skills`. |
+| 2026-10-08 | https://github.com/jakubkrehel/make-interfaces-feel-better | Micro-polish checklist: radii, hit areas, tabular nums, icon weight. `npx skills add jakubkrehel/make-interfaces-feel-better`. |
+| 2026-10-08 | https://github.com/ibelick/ui-skills | A11y + baseline UI pack (fixing-accessibility and more). `npx skills add ibelick/ui-skills`. |
+| 2026-10-08 | https://github.com/shadcn-ui/ui | Official shadcn skill — only when the project uses shadcn/ui. Skill under `skills/shadcn`. |
 
 ## Process / agents
 
@@ -42,6 +46,7 @@ Cross-project agent tooling (skills, specs, token compression, code graphs, harn
 | 2026-09-14 | https://github.com/Shubhamsaboo/awesome-llm-apps | 100+ runnable agents/RAG/voice — cookbook, not a dependency. |
 | 2026-09-14 | https://github.com/kenn-io/agentsview | Local viewer for Claude Code / Codex sessions + token spend. |
 | 2026-09-14 | https://github.com/moorcheh-ai/memanto | Memory Agent for other agents: keep/conflict/expire/share. Companion memory layer, not a vector DB alone. |
+| 2026-10-08 | https://github.com/millionco/react-doctor | React health scanner (security/perf/architecture score). `npx react-doctor@latest`. |
 
 ## Research / reach (read each site ToS)
 
@@ -88,6 +93,7 @@ Cross-project agent tooling (skills, specs, token compression, code graphs, harn
 | Date | Repo | Why |
 |------|------|-----|
 | 2026-09-14 | https://github.com/jo-inc/camofox-browser | Stealth browser (Camoufox) for Cloudflare/anti-bot. |
+| 2026-10-08 | https://github.com/microsoft/playwright-cli | Official Playwright CLI for agents: snapshots, sessions, tracing, test gen. `npm i -g @playwright/cli`. |
 
 ## Computer Use
 
@@ -134,7 +140,7 @@ Stack idea: Windows-MCP (desktop) + project CDP MCP if needed + browser MCP/camo
 
 ## Suggested defaults
 
-1. UI → ui-ux-pro-max + hallmark + anti-slop  
+1. UI → anti-slop + hallmark + emil-design-eng (+ make-interfaces / ibelick a11y; shadcn only if project uses it)  
 2. Tokens → headroom (+ rtk); graphs → code-review-graph / codebase-memory-mcp  
 3. Skills → mattpocock + addyosmani + spec-kit; scan with SkillSpector  
 4. Search → SearXNG; research reach → Agent-Reach (ToS-aware)  
@@ -142,10 +148,15 @@ Stack idea: Windows-MCP (desktop) + project CDP MCP if needed + browser MCP/camo
 6. Self-host basics → Vaultwarden, LocalSend, changedetection, LibreTranslate  
 7. Companion / RAG → Open-LLM-VTuber + awesome-llm-apps; infra → LMCache  
 8. Docs → PaddleOCR + OfficeCLI  
+8b. Browser agents → playwright-cli (+ camofox if anti-bot); React health → react-doctor  
 9. Fleets → Orca / Codex / pi / flue later  
 10. Security (own stand) → shannon / pentagi  
 
 ---
+
+## Maintainer note
+
+When evaluating candidate skills from dumps/lists: add useful ones to this README immediately (no ask), skip near-duplicates of stronger rows, and keep framework-only tools tagged as such.
 
 ## How to add an entry
 
