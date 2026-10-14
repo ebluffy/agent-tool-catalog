@@ -10,7 +10,7 @@ Public, personal-project-free list of useful repos for coding agents **and** sol
 
 **Humans:** one row = date | URL | one-line why. No secrets, no private project names.
 
-Last updated: 2026-10-08 (official skills + agent-browser)
+Last updated: 2026-10-14 (better-design MCP)
 
 ---
 
@@ -25,6 +25,7 @@ Last updated: 2026-10-08 (official skills + agent-browser)
 | 2026-10-08 | https://github.com/jakubkrehel/make-interfaces-feel-better | Micro-polish checklist: radii, hit areas, tabular nums, icon weight. `npx skills add jakubkrehel/make-interfaces-feel-better`. |
 | 2026-10-08 | https://github.com/ibelick/ui-skills | A11y + baseline UI pack (fixing-accessibility and more). `npx skills add ibelick/ui-skills`. |
 | 2026-10-08 | https://github.com/shadcn-ui/ui | Official shadcn skill - only when the project uses shadcn/ui. Skill under `skills/shadcn`. |
+| 2026-10-14 | https://github.com/marvkr/better-design | Design MCP: real design-system tokens/components (Linear, Stripe, Vercel…) + WCAG/visual review rules. Complements skills. `npx skills add marvkr/better-design --skill better-design` + `npx better-design`. |
 
 ## Process / agents
 
