@@ -53,6 +53,7 @@ Cross-project agent tooling (skills, specs, token compression, code graphs, harn
 | 2026-10-08 | https://github.com/VoltAgent/awesome-agent-skills | Curated index of 1000+ official/community skills - discovery, not a dependency. |
 | 2026-10-08 | https://github.com/google-labs-code/stitch-skills | Google Stitch MCP skills (design/code loop). |
 | 2026-10-08 | https://github.com/conorbronsdon/agent-skills | Session memory, multi-session reconcile, proportionate PR review. |
+| 2026-11-15 | https://github.com/noqt/noqt/tree/main/yumi/python-import-layout | Local-only Python import-layout evidence: compare an explicit wheel or sdist with a pinned source snapshot and named consumer files without installing or executing subject code. |
 
 ## Research / reach (read each site ToS)
 
